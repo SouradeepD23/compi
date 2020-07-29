@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "mingw_64"
+      ],
+      "name": "Mingw64",
+      "includePath": [
+        "${workspaceRoot}\\..\\..\\..\\..\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++",
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ]
+}

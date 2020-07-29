@@ -1,0 +1,15 @@
+may have multiple solutions
+
+[lexicographic  O(nlogn)]
+1. sort
+2. swap adjacent elements with i+=2 in loop
+
+
+result: a1 >= a2 <= a3 >= a4 <= a5 ......
+
+
+[for a random solution	O(n)]
+1. swap even  posi elements (0,2,4,..) with adjacent odd elements.
+2. Traverse all even positioned elements of input array, and do following.
+….a) If current element is smaller than previous odd element, swap previous and current.
+….b) If current element is smaller than next odd element, swap next and current.
